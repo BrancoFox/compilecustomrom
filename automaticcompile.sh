@@ -12,6 +12,9 @@ clonetree(){
 sudo git clone https://github.com/GiovanYCringe/android_device_motorola_deen.git -b 12.1 device/motorola/deen
 sudo git clone https://github.com/GiovanYCringe/kernel_motorola_deen.git -b 12.1 kernel/motorola/deen
 sudo git clone https://github.com/GiovanYCringe/vendor_deen -b SL vendor/motorola/deen
+sudo git clone https://github.com/LineageOS/android_system_qcom.git system/qcom
+sudo git clone https://github.com/LineageOS/android_external_bson.git external/bson
+sudo git clone https://github.com/GiovanYCringe/hardware_motorola.git hardware/motorola
 }
 
 fixproton(){
