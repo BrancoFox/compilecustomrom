@@ -9,9 +9,9 @@ sudo repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --p
 }
 
 clonetree(){
-sudo git clone https://github.com/Yshmany/android_device_motorola_deen.git -b 12.1
-sudo git clone https://github.com/GiovanYCringe/kernel_motorola_deen.git -b 12.1
-sudo git clone https://github.com/GiovanYCringe/vendor_deen -b SL
+sudo git clone https://github.com/GiovanYCringe/android_device_motorola_deen.git -b 12.1 device/motorola/deen
+sudo git clone https://github.com/GiovanYCringe/kernel_motorola_deen.git -b 12.1 kernel/motorola/deen
+sudo git clone https://github.com/GiovanYCringe/vendor_deen -b SL vendor/motorola/deen
 }
 
 fixproton(){
